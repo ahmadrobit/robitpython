@@ -5,6 +5,8 @@ from django.contrib import admin
 admin.autodiscover()
 
 import hello.views
+import gdrive.views
+
 
 # To add a new path, first import the app:
 # import blog
